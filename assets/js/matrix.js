@@ -66,6 +66,7 @@ window.addEventListener("resize", () => {
 
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
+
   ctx.fillStyle = `rgba(${backgroundRGBvalues}, 1)`;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 

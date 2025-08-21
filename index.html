@@ -7,33 +7,86 @@
     <title>Nour Elhamshary</title>
   </head>
   <body>
+    <div class="modal hidden">
+      <div>
+        <button class="close-modal">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+        <p>
+          Hello! Name's Nour Elhamshary, a software engineer with a variety of
+          skills at his toolset. Worked in both back-end and front-end
+          development, alongside working in various projects using variety of
+          programming languages like Java, C# and C++.
+          <br />
+          <br />
+          Fun fact! This website is made of pure HTML, CSS and JavaScript
+          (meaning no frameworks used like Angular or React) and that
+          <em>is</em> intentional! I am a firm believer of a simple solution
+          being the best solution, and a portfolio website does not need to be
+          über-fancy in order to send the point across.
+          <br />
+          <br />
+          Maybe except your name is Nour and you decided to use a fully-vanilla
+          Matrix effect just as a nice eye candy. :]
+          <br />
+          <br />
+          My full work experience can be found in the "My CV" button if you
+          want, and you can communicate with me through E-mail and LinkedIn in
+          the other side of the navigation bar! My GitHub is also available for
+          you to check on for some personal projects and/or projects I work as a
+          collaborator!
+          <br />
+          <br />
+          Whatever you may do around my website, I hope you have a wonderful
+          day! Do check on a button named Felix, you will be happy with that
+          decision. :]
+        </p>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
     <div class="main">
       <!-- Canvas is for the matrix effect  -->
       <canvas id="canvas"></canvas>
       <div class="logo">
         <h1>nour</h1>
-        <img src="assets/4213-1340993088.jpg" width="50px" />
+        <img src="assets/4213-1340993088.jpg" />
         <h1>elhamshary</h1>
       </div>
       <div class="links">
         <div class="personal">
-          <a href="#">About Me</a>
-          <a href="#">My CV</a>
-          <a href="#">Felix</a>
+          <button class="about-me">About me</button>
+          <button class="my-cv">My CV</button>
+          <button class="felix">Felix</button>
+          <button class="credits">Credits</button>
+          <!-- <a>About Me</a>
+          <a>My CV</a>
+          <a>Felix</a>
+          <a>Credits</a> -->
         </div>
 
         <div class="connections">
-          <img src="assets/communication/at.svg" width="24px" />
-          <img src="assets/communication/github.svg" width="24px" />
-          <img src="assets/communication/linkedin.svg" width="24px" />
-        </div>
-
-        <div class="credits">
-          <a href="#">Credits</a>
+          <a href="mailto:nour.elhamshary@outlook.com">
+            <ion-icon name="at-outline"></ion-icon>
+          </a>
+          <a href="https://github.com/Nour-Elhamshary">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+          <a href="https://linkedin.com/in/nour-elhamshary">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
         </div>
       </div>
     </div>
-    <script defer src="index.js"></script>
+    <script defer src="index.js" type="module"></script>
     <script defer src="assets/js/matrix.js" type="module"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
