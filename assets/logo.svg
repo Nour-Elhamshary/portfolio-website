@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="18.173508mm"
+   height="22.827698mm"
+   viewBox="0 0 18.173508 22.827698"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="Nour Elhamshary - Logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="7.2407734"
+     inkscape:cx="0.20716019"
+     inkscape:cy="66.774635"
+     inkscape:window-width="2497"
+     inkscape:window-height="1417"
+     inkscape:window-x="1135"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-95.913251,-137.08615)">
+    <g
+       id="g5"
+       transform="matrix(0,0.29512864,-0.29512864,0,244.18917,-15.761461)"
+       inkscape:export-filename="g5.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:label="Logo"
+       style="display:inline;fill:#40c057;fill-opacity:1;stroke:#40c057;stroke-width:4.13457;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers">
+      <path
+         id="path4"
+         style="display:inline;opacity:1;fill:#40c057;fill-opacity:1;stroke:#40c057;stroke-width:4.13457;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+         d="m 524.94304,477.07079 34.94865,22.45689 c 5.05912,-8.2983 10.98951,-10.87279 17.10975,-12.21478 l 0.0226,-10.24211 h -9.20772 a 10.649489,10.767129 0 0 1 -10.64908,10.76778 10.649489,10.767129 0 0 1 -10.64908,-10.76778 z" />
+      <path
+         id="path8"
+         style="display:inline;opacity:1;fill:#40c057;fill-opacity:1;stroke:#40c057;stroke-width:4.13457;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+         d="m 526.83308,469.89827 66.34959,-0.0696 v -7.83405 l -23.91916,1.03836 7.53778,-17.88031 z" />
+      <path
+         id="rect16"
+         style="opacity:1;fill:#40c057;fill-opacity:1;stroke:#40c057;stroke-width:4.13457;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+         d="m 584.54558,490.75746 10e-6,-13.62259 h 8.63707 l 10e-6,13.62259 z" />
+    </g>
+  </g>
+</svg>
