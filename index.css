@@ -26,6 +26,7 @@ body {
   z-index: -1;
 }
 
+
 .main {
   position: relative;
   display: flex;
@@ -85,17 +86,11 @@ body {
   cursor: pointer;
 }
 
-/* a,
-a:link {
-  color: #0d2913;
-  text-decoration: none;
-} */
 
 .connections {
   display: flex;
   gap: 10px;
   color: #0d2913;
-  font-size: 16pt;
   justify-content: center;
 }
 
@@ -105,8 +100,8 @@ a:link {
   display: inline;
   margin: 0;
   padding: 0;
-  font-size: 16pt;
-  height: 21.33px;
+  font-size: 2rem;
+  height: 2rem;
   text-decoration: none;
 }
 
@@ -129,11 +124,9 @@ a:link {
   z-index: 10;
   color: #37b24d;
   overflow: auto;
-}
-
-.modal p {
   font-size: 1.8rem;
 }
+
 
 .overlay {
   position: absolute;
@@ -152,8 +145,41 @@ a:link {
   top: 1.2rem;
   right: 2rem;
   font-size: 5rem;
-  /* color: #333; */
   cursor: pointer;
   border: none;
   background: none;
+}
+
+.modal a:link, .modal a:visited {
+  color: #8ce99a;
+}
+
+@media (width <= 800px) or (orientation: portrait) {
+  .links {
+    width: 480px;
+  }
+
+  .links button {
+    height: 50px;
+  }
+
+  .connections a, .connections a:link {
+    font-size: 3.5rem;
+    height: 3.5rem;
+  }
+
+}
+
+@media (width <= 480px) {
+  .logo img {
+    width: 35px;
+  }
+  .logo h1 {
+    font-size: 3rem;
+  }
+  .links {
+    width: 300px;
+    display: grid;
+    row-gap: 1.25rem;
+  }
 }

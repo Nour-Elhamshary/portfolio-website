@@ -11,7 +11,6 @@ export default class Effect {
     this.fontSize = 17;
     this.columns = canvasWidth / this.fontSize;
     this.oldColumns = 0;
-    console.log(this.columns);
     this.symbols = [];
 
     this.#initialize();

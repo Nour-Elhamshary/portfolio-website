@@ -31,4 +31,29 @@ export const messages = {
           decision. :]
         </p>
     `,
+    credits:
+    `
+    <p> Credits for making the website possible:</p>
+    <br>
+    <ul>
+        <li>
+        <a target="_blank" href="https://github.com/sumitKcs/matrix-effect">sumitKcs</a> for 
+        the matrix effect 
+        (I just changed color and made it able to be resized without restarting
+        the effect again)
+        </li>
+        <li>
+        <a target="_blank" href="https://ionic.io/ionicons">ionicons</a> for the @,
+        LinkedIn and GitHub icons.
+        </li>
+        <li>
+        <a target="_blank" href="https://github.com/yeun/open-color">yeun open-color</a> for the colouring scheme.
+        </li>
+        <li>
+        <a target="_blank" href="https://fonts.google.com/specimen/IBM+Plex+Mono">IBM</a> for the IBM Plex Mono font.
+        </li>
+    </ul>
+    <br>
+    <p>The remainder of the assets are owned by me, including the logo used in between my first and last name (Pen-Cursor).</p>
+    `,
 }

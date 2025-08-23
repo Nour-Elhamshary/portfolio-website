@@ -15,13 +15,14 @@ const closeModalBtn = document.createElement('button');
 closeModalBtn.classList.add('close-modal');
 closeModalBtn.innerHTML = `<ion-icon name="close-outline"></ion-icon>`;
 
+const allBtnEls = document.querySelectorAll('.btn');
 
 
 
 const openModal = function(e) {
   if (e?.preventDefault) e.preventDefault();
 
-  const className = e.currentTarget.classList.value;
+  const className = e.currentTarget.classList[0];
   
   bodyEl.insertAdjacentElement('afterbegin', modalEl);
   modalEl.insertAdjacentElement('afterbegin', closeModalBtn);
@@ -31,17 +32,21 @@ const openModal = function(e) {
     case 'about-me':
       modalEl.insertAdjacentHTML('beforeend', messages.aboutMe);
       break;
+    case 'credits':
+      modalEl.insertAdjacentHTML('beforeend', messages.credits);
   }
   
 }
 
 const closeModal = function() {
-  console.log("It works!");
   bodyEl.removeChild(modalEl);
   bodyEl.removeChild(overlayEl);
   modalEl.innerHTML = '';
 }
 
-aboutMeBtn.addEventListener("click", openModal);
+allBtnEls.forEach((element) => {
+  element.addEventListener("click", openModal);
+})
+
 closeModalBtn.addEventListener("click", closeModal);
 overlayEl.addEventListener("click", closeModal);
