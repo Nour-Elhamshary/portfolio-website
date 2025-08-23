@@ -75,7 +75,7 @@ body {
   font-size: 1.25rem;
 }
 
-.personal button {
+.personal button, .personal a, .personal a:link {
   border: none;
   font-family: "IBM Plex Mono", monospace;
   background-color: #37b24d;
@@ -85,6 +85,13 @@ body {
   cursor: pointer;
 }
 
+.personal a, .personal a:link, .personal a:visited {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+
+}
 
 .connections {
   display: flex;
