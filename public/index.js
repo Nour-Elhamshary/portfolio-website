@@ -1,5 +1,5 @@
 "use strict";
-import {messages} from "../assets/js/messages.js";
+import {messages} from "./assets/js/messages.js";
 
 const bodyEl = document.querySelector('body');
 const aboutMeBtn = document.querySelector(".about-me");
