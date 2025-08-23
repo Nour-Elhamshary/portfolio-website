@@ -8,8 +8,22 @@ import Effect from "./effect.js";
 const offscreen = document.createElement("canvas");
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+
+function resizeCanvas() {
+  // Use CSS size of the element, not window.inner*
+  const rect = canvas.getBoundingClientRect();
+  const dpr = Math.max(1, window.devicePixelRatio || 1);
+
+  // Set drawing buffer size (CSS size stays 100% via CSS)
+  canvas.width = Math.round(rect.width * dpr);
+  canvas.height = Math.round(rect.height * dpr);
+
+  // Scale drawing so 1 unit = 1 CSS pixel
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+}
+
+// Initialize once we know the CSS size
+resizeCanvas();
 
 const singleColor = "#37b24d";
 
