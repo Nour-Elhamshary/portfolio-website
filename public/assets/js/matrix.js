@@ -73,7 +73,7 @@ function animate(timeStamp) {
 }
 animate(0);
 
-window.addEventListener("resize", () => {
+const onResizeCanvas = function () {
   offscreen.width = canvas.width;
   offscreen.height = canvas.height;
   offscreen.getContext("2d").drawImage(canvas, 0, 0);
@@ -81,10 +81,13 @@ window.addEventListener("resize", () => {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
 
+  resizeCanvas();
+
   ctx.fillStyle = `rgba(${backgroundRGBvalues}, 1)`;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
-
   ctx.drawImage(offscreen, 0, 0);
 
   effect.resize(canvas.width, canvas.height, ctx);
-});
+}
+
+window.addEventListener("resize", onResizeCanvas);
