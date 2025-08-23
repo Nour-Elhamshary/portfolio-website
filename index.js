@@ -34,6 +34,10 @@ const openModal = function(e) {
       break;
     case 'credits':
       modalEl.insertAdjacentHTML('beforeend', messages.credits);
+      break;
+    case 'felix':
+      modalEl.insertAdjacentHTML('beforeend', messages.felix);
+      break;
   }
   
 }

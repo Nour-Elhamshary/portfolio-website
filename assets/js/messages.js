@@ -56,4 +56,12 @@ export const messages = {
     <br>
     <p>The remainder of the assets are owned by me, including the logo used in between my first and last name (Pen-Cursor).</p>
     `,
+    felix:
+    `
+    <div class="felix-modal">
+    <img src="assets/felix/felix.png" alt="Picture of my brown and white coloured cat, Felix." />
+    <br>
+    <p>Felix! :]</p>
+    </div>
+    `
 }
